@@ -1,9 +1,10 @@
+import BerandaUtama from "./berandaUtama/page";
 
 
 export default function Home() {
   return (
-   <div>
-      testting
-   </div>
+   <section>
+      <BerandaUtama/>
+   </section>
   );
 }
