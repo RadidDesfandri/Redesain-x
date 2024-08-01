@@ -63,7 +63,6 @@ export default function Navbar() {
                         <div className='pt-8 flex flex-col'>
                             {data.map((item, key) => (
                                 <div key={key} className='flex text-white px-4 py-2 items-center hover:bg-gray-500/10 gap-7 mb-3 '>
-                                    {/* <Image className='rounded-full bg-white' src={item.img} alt='profile.svg' width={30} height={30} /> */}
                                     <p className='w-8 h-8 flex items-center  text-center'>
                                         <item.img size={30}/>
                                     </p>

@@ -16,7 +16,7 @@ export default function BerandaUtama() {
                             <h1 className='text-[43px] pt-10 md:text-6xl font-bold mb-14 md:mb-10'>Happening now</h1>
                             <h2 className='text-2xl pb-5 font-semibold'>Join today.</h2>
                         </div>
-                        <div className='flex flex-col gap-2 '>
+                        <div className='flex flex-col gap-2'>
                             <div className='flex items-center justify-center gap-6 bg-white w-[320px] md:w-[360px] h-11 rounded-full'>
                                 <Image src={google} alt='X' width={25} height={25} />
                                 <span className='text-gray-500'>Sign in with Google</span>
@@ -29,7 +29,7 @@ export default function BerandaUtama() {
                         <div className='flex items-center gap-2 py-2'>
                             <span className='w-[140px] md:w-[163px] h-[1px] bg-gray-500'></span><p>or</p><span className='w-[140px] h-[1px] md:w-[163px] bg-gray-500'></span>
                         </div>
-                        <Link href={"#"}><button type='submit' className='flex items-center justify-center gap-6 bg-[#1D9BF0] w-[320px] md:w-[360px] h-11 rounded-full font-semibold '>Create account</button></Link>
+                        <Link href={"/register"}><button type='submit' className='flex items-center justify-center gap-6 bg-[#1D9BF0] w-[320px] md:w-[360px] h-11 rounded-full font-semibold '>Create account</button></Link>
                         <p className='text-[10px] text-gray-400 w-[300px] pt-1'>By signing up, you agree to the <span className='text-[#1D9BF0]'>Terms of Service</span> and <span className='text-[#1D9BF0]'>Privacy Policy</span>, including <span className='text-[#1D9BF0]'>Cookie Use.</span></p>
                         <div className='pb-8'>
                             <h1 className='pt-10 ext-base font-semibold'>Already have an account?</h1>
